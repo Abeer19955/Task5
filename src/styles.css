@@ -1,5 +1,6 @@
 :root{
-    color: blue;
+    color:white;
+    font-size:xx-large;
 
 }
 *{
@@ -11,7 +12,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     width:100%;
-    background-image: url('assets/image/bac.jpg');
+    background-image: url('assets/image/cold.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +21,9 @@ body{
 .container{
     width: 400px;
     height: 80vh;
-    background-color: rgba(101, 101, 164, 0.529);
+    background-color: rgba(190, 190, 222, 0.301);
     border-radius: 20px;
-    box-shadow:10px 10px 10px rgba(111, 55, 215, 0.477);
+    box-shadow:10px 10px 10px rgba(99, 73, 144, 0.51);
 }
 .upper-data{
     position: relative;
@@ -67,21 +68,21 @@ body{
 }
 .location
 {
-    color:white;
+    color:black;
     text-align: center;
     font-size:1.2em ;
     
 }
 .temperature
 {
-    color:white;
+    color:black;
     font-size: 4em;
     text-align: center;
     font-weight: 900;
 
 }
 .more-info-label{
-    color:white;
+    color:black;
 }
 .more-info-container{
     flex:1;
@@ -109,7 +110,7 @@ body{
     width:1em;
 }
 .info-block-label span{
-    color: white;
+    color: black;
     font-size: 0.8em;
 }
 .info-block-value{
@@ -117,7 +118,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: white;
+    color: black;
 
 }
 .search{
@@ -125,12 +126,12 @@ body{
     text-align: center;
 }
 .search input{
-    background-color: rgba(192, 192, 239, 0.158);
+    background-color: rgba(32, 32, 36, 0.703);
     outline:none;
     border: none;
     border-radius: 20px;
     padding:1em;
-    color:rgb(3, 3, 3);
+    color:rgb(255, 253, 253);
     font-size: 0.8em;
     text-align: center;
 
@@ -147,7 +148,7 @@ body{
     padding: 8px 16px;
     font-size: 13px;
     background-color: #0965c25e;
-    color: rgb(219, 217, 217);
+    color: rgb(12, 12, 12);
     border-radius: 12px;
     cursor: pointer;
     left: 20px;
